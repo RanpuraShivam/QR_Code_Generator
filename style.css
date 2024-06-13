@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: #00FFB3;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #8730EA;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #4775E7;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #FD6364;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00F1FF;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+.result .container {
+    display: flex; /* Arrange elements horizontally */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+.result p {
+    margin-top: 1rem;
+    text-align: center;
+    line-height: 1.5; /* Adjust line spacing for better readability */
+}
+
+.result img {
+    margin: 1rem 0;
+    width: 200px; /* Adjust image width as needed */
+    height: 200px; /* Adjust image height as needed */
+}
+
+.result a {
+    display: block; /* Display link as a block level element */
+    padding: 10px 20px;
+    background-color: ;
+    color: #005bf3;
+    text-decoration: none; /* Remove underline */
+    border: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.result a:hover {
+    background-color: #007bff;
+}
+/* Media queries for responsive design (optional) */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust container width for smaller screens */
+    }
+}

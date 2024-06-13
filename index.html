@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <form action="/generate" method="post">
+            <div class="input-group">
+                <label for="url">Enter URL:</label>
+                <input type="text" id="url" name="url" placeholder="https://www.example.com" required>
+            </div>
+            <div class="input-group">
+                <label for="color">Select Color:</label>
+                <select id="color" name="color">
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="size">Select Size:</label>
+                <select id="size" name="size">
+                    <option value="1">Small</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Large</option>
+                    <option value="4">Extra Large</option>
+                    <option value="5">Giant</option>
+                </select>
+            </div>
+            <button type="submit">Generate QR Code</button>
+        </form>
+    </div>
+    
+</body>
+</html>
